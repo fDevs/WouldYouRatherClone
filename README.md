@@ -51,8 +51,23 @@ From the beginning..
    ![image](https://cloud.githubusercontent.com/assets/6477133/23840011/dfd6bb56-076f-11e7-9317-7bb626668497.png)
 
    Question Read View Model:  
-   ![image](https://cloud.githubusercontent.com/assets/6477133/23840002/d3bed3b2-076f-11e7-9ffe-1f87498bfb9c.png)
+   ![image](https://cloud.githubusercontent.com/assets/6477133/23840002/d3bed3b2-076f-11e7-9ffe-1f87498bfb9c.png)  
+  
+The assignment for the week of 3/12 till the next meeting is to implement only Create and Read.  
+  
+As an example I've inserted some sample data and updated the scaffolded GET action Questions controller to return JSON of a QuestionReadViewModel.  
+   ![image](https://cloud.githubusercontent.com/assets/6477133/23840487/9f7889dc-0773-11e7-967c-29edc753e286.png)  
+   ![image](https://cloud.githubusercontent.com/assets/6477133/23840472/816703ec-0773-11e7-9a7b-817bfa43c08f.png)  
 
-The assignment for the week of 3/12 till the next meeting is to implement only Create and Read.
+I created a WouldYouRather.js that calls a sample loadQuestion() function with no parameters, taking in the sample data alone.  
+![image](https://cloud.githubusercontent.com/assets/6477133/23840666/1cc135d2-0775-11e7-9f59-788bd78aa447.png)  
+
+Index.html is called within a layout.  
+![image](https://cloud.githubusercontent.com/assets/6477133/23840676/34a8980c-0775-11e7-9950-e59e871e4b82.png)  
+
+The final result is the page loading, calling the loadQuestion function which replaces the text of the elements within the Index.html file with data retrieved from the Api\Questions\1 endpoint.  
+![image](https://cloud.githubusercontent.com/assets/6477133/23840649/f9daa24c-0774-11e7-8e9b-975e8c47f28d.png)
+
+
 
 
