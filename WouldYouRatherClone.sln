@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldYouRatherClone", "WouldYouRatherClone\WouldYouRatherClone.csproj", "{1FE0E44E-A418-4C95-9F26-D5249988041D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldYouRatherClone", "..\..\Downloads\WouldYouRatherClone-master\WouldYouRatherClone-master\WouldYouRatherClone\WouldYouRatherClone.csproj", "{1FE0E44E-A418-4C95-9F26-D5249988041D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldYouRatherClone.Tests", "WouldYouRatherClone.Tests\WouldYouRatherClone.Tests.csproj", "{6232BC60-5090-4049-BDDC-BD7BCC94933E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldYouRatherClone.Tests", "..\..\Downloads\WouldYouRatherClone-master\WouldYouRatherClone-master\WouldYouRatherClone.Tests\WouldYouRatherClone.Tests.csproj", "{6232BC60-5090-4049-BDDC-BD7BCC94933E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
