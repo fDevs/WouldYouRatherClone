@@ -1,0 +1,23 @@
+﻿<div class="jumbotron">
+    <h1 id="Question"></h1>
+    <p id="Answer1"></p>
+    <p id="Answer2"></p>
+</div>
+
+
+<script type="text/javascript">
+    function loadQuestion() {
+        $.get("/Api/Questions/@ViewBag.Id", function (data) {
+            console.log(data);
+            $("#Question").text(data.QuestionText);
+            $("#Answer1").text(data.Answer1Text);
+            $("#Answer2").text(data.Answer2Text);
+        });
+    }
+
+    $(function () {
+        loadQuestion();
+    });
+
+
+</script>
